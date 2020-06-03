@@ -1,0 +1,160 @@
+[
+    {
+        "id":4,
+        "title":"Forretning Online 2020",
+        "date":"Udskudt på ubestemt tid",
+        "place":"Novicell, Aarhus",
+        "description":"Konferencen er for dig, der udvikler organisationen digitalt. Du er direktør for et forretningsområde eller en virksomhed – eller måske er du marketingchef, salgschef, e-commerce manager eller anden leder inden for digitalisering, IT, kundeservice eller forretningsudvikling.",
+        "link":"https://www.novicell.dk/forretning-online-konferencen-2020/",
+        "logo":"novicell-logo-white-web.svg",
+        "address": "Søren Nymarks Vej 6 8270 Højbjerg",
+        "price":"3.495 kr. ekskl. moms",
+        "subpage":"forretning_online.html"
+    },
+    {
+        "id":11,
+        "title":"MarketingCamp",
+        "date":"2020-05-19",
+        "place":"ITU, København",
+        "description":"MarketingCamp er til dig, der er træt af varm luft på poser. Alle oplægsholdere lover at komme med konkrete takes. Konkrete tips og tricks der giver din online markedsføring kant. MarketingCamp er for dig, der sidder med fingrene i markedsføring til hverdag. Webshopejeren, der lige er startet. Webmasteren, der er godt i gang. Webdesigneren, der søger bedre call to action, og ikke mindst dig, der lever af at hjælpe andre med deres online markedsføring. Vælg indlæg inden for emner som email marketing, annoncer på internettet, Facebook, sociale medier, usability, søgemaskineoptimering og meget mere.",
+        "link":"https://marketingcamp.dk/",
+        "logo":"",
+        "address": "ITU, Rued Langgaards Vej 7, 2300 København, Denmark",
+        "price":"UDSOLGT - 3.999 dkk + moms",
+        "subpage":"marketing_camp.html"
+    },
+    {
+        "id":13,
+        "title":"IMPROVIFY 2020",
+        "date":"2020-06-09",
+        "place":"AC Hotel Bella Sky, København",
+        "description":"Vi– som i Obsidian Digital og D.TAILS - elsker at arbejde med Shopify. Systemet giver dig som e-commercevirksomhed mulighed for at bruge din tid på god kundeservice, indkøb og vækst i stedet for tekniske problemer,opdatering af plugins og servere i knæ. I 2020 er mere end 20 % af al dansk e-handel faciliteret af Shopify (kilde:trends.builtwith.com). Et så stort system fortjener sin egen dag dedikeret til at øge vækstraten for de virksomheder, der allerede er skiftet over. Meningen har lavet den dag. Før nu. IMPROVIFY d. 9. juni 2020 er til dig, der er i gang med Shopify (ellerovervejer), og ønsker at understøtte væksten ved at sælge mere (toplinje) og optimere driften (bundlinje). Vi lover at lægge al vores energi i at arrangere den bedst mulige konference,så du som deltager kan få det 2020, du drømmer om (og har budgetteret efter!)",
+        "link":"https://www.improvify.dk/",
+        "logo":"improvify_2020.png",
+        "address": "Center Boulevard 5, 2300 København S. Comwell Conference Center",
+        "price":"1.995 KR. EKSKL. MOMS",
+        "subpage":"improvify.html"
+    },
+    {
+        "id":10,
+        "title":"B2B Marketing | The Conference",
+        "date":"2020-09-01",
+        "place":"Comwell Aarhus",
+        "description":"På B2B Marketing:The Conference 2020 vil du møde en række særligt udvalgte eksperter, der har praktisk erfaring og succes med at udvikle, igangsætte og drive en ny digital marketingfremtid på det professionelle marked. Nøglen til succes fra synlighed til salg er digital, og på B2B Marketing:The Conference vil du opleve HVORFOR og HVORDAN. Konferencen vil udfordre dit strategisk landkort og zoome ind på de vigtigste kommercielle indsatser der gør det mere interessant, nemmere og værdifuld at være din kunde.",
+        "link":"https://b2bmarketingkonference.dk/",
+        "logo":"dm_b2b-marketing-the-conference_logo_red.png",
+        "address": "Comwell Aarhus, Værkmestergade 2, 8000 Aarhus",
+        "price":"Earlybird pris: 2.495 kr. ekskl. moms. Efter 1. juli 2020: 3.495 kr. ekskl. moms",
+        "subpage":"b2b_marketing.html"
+    },
+    {
+        "id":8,
+        "title":"KOM20: Årets k-konference",
+        "date":"2020-09-03",
+        "place":"The Plant, København",
+        "description":"Vi gentager for fjerde gang succesen med årets største danske kommunikationskonference når vi åbner  dørene til KOM20. For første gang på The Plant, der ligger otte minutter på cykel fra Kongens Nytorv i København. Den klassiske kommunikatør bliver i disse år udfordret på relationsopbygning og målgruppekontakt. Både af nye digitale muligheder og andre faggruppers kommunikationsløsninger, når nu de allerede sidder med ved ledelsesmøderne. Kforum og DJ sætter derfor til KOM20 fokus på, hvordan vi holder os relevante som kommunikatører. Med lærerige cases og provokerende oplæg bliver vi sammen klogere på, hvad vi skal koncentrere os om, hvad vi skal ignorere, og hvordan vi forklarer vores ledelser og omverden, at vores indsats gør en reel forskel. Du får samtidig konkrete værktøjer til at komme tættere på forretningen og til at styrke kommunikationsbranchens bæredygtighed.",
+        "link":"https://kom20.dk/",
+        "logo":"kom20640x300.png",
+        "address": "THE PLANT, Raffinaderivej 22, 2300 København",
+        "price":"2.490 kr. ex moms - Se medlemspriser på hjemmesiden",
+        "subpage":"kom20.html"
+    },
+    {
+        "id":12,
+        "title":"SuperOffice CRM DAGEN 2020",
+        "date":"2020-10-22",
+        "place":"Industriens Hus, København V",
+        "description":"Omdrejningspunktet for årets CRM DAG er kunderejsen. Deltag i CRM Dagen og få inspiration og indsigt i, hvordan SuperOffice og vores App Store Partnere kan hjælpe jer med at optimere jeres udbytte af SuperOffice. Du vil opleve, at CRM DAGEN i år er anderledes og mere fokuseret i forhold til tidligere. Vi garanterer, at du går derfra med værdifuld viden og ideer.",
+        "link":"https://www.superoffice.dk/local-content/denmark/crm-dage/crm-dagen-2020/",
+        "logo":"superoffice_logo.svg",
+        "address": "Dansk Industri – DI Industriens Hus, H.C. Andersens Boulevard 18, 1553 København V",
+        "price":"Gratis",
+        "subpage":"superoffice_crm.html"
+    },
+    {
+        "id":1,
+        "title":"SOCIAL MEDIA MANAGEREN 2020",
+        "date":"2020-11-24",
+        "place":"Comwell Aarhus",
+        "description":"Social Media Manageren 2019 er 8 timer med tools, tips, tricks og tendenser. Hand on viden til at få succes med sociale medier– step by step",
+        "link":"https://socialmedia-manageren.dk/",
+        "logo":"social_media_manageren-2020_logo_pos.png",
+        "address": "Comwell Aarhus Værkmestergade 2 8000 Aarhus",
+        "price":"Earlybird pris: 2.495 kr. ekskl. moms. Efter 1. oktober: 3.495 kr. ekskl. moms",
+        "subpage":"social_media_manageren.html"
+    },
+    {
+        "id":2,
+        "title":"Ehandelsdagen 2021",
+        "date":"2021-02-11",
+        "place":"Skive",
+        "description":"Indholdet på dagen er ikke trends og tendenser, men hard core salgs- og optimeringstips til hvordan du kan sælge mere og/eller optimerer dit salg og skabe bedre bundlinje – og gerne allerede fra i morgen.",
+        "link":"https://ehandelsdagen.dk/",
+        "logo":"ehandelsdagen-logo-simple-white.svg",
+        "address": "Kulturcenter Limfjord, Skyttevej 12, 7800 Skive",
+        "price":"1.699 kr. + moms",
+        "subpage":"ehandelsdag.html"
+    },
+    {
+        "id":3,
+        "title":"Email summit 2021",
+        "date":"2021-03-16",
+        "place":"Odense",
+        "description":"EMAIL SUMMIT 2020 er en særlig dag for dig, der arbejder med e-mail marketing og brænder for ny viden og inspiration, så du kan udvikle dig og være med i toppen af dansk markedsføring.",
+        "link":"https://www.emailsummit.dk/",
+        "logo":"primelogo8.jpg",
+        "address": "Odeons Kvarter 1, 5000 Odense",
+        "price":"3.950 kr. + moms",
+        "subpage":"email_summit.html"
+    },
+    {
+        "id":5,
+        "title":"SEOday 2020",
+        "date":null,
+        "place":"Comwell Kolding",
+        "description":"SEOday 2020 er for dig, der arbejder strategisk eller praktisk med SEO. Måske er du ansat i en marketing-, kommunikations- eller webafdeling. Det kan også være, du lever af at rådgive andre om SEO og digital markedsføring.",
+        "link":"https://seoday.dk/",
+        "logo":"SEOday_logo.png",
+        "address": "Comwell Kolding, Skovbrynet 1, 6000 Kolding",
+        "price":" 3950 kr. ekskl. moms",
+        "subpage":"seoday.html"
+    },
+    {
+        "id":6,
+        "title":"DM 19",
+        "date":null,
+        "place":"Nupark, Holstebro",
+        "description":"DM19 er en konference for alle, der interesserer sig for digital markedsføring – lige fra sociale medier til søgemaskineoptimering. Du får værdi af at deltage, uanset om du har din egen webshop, er nystartet iværksætter, eller sidder i en stor virksomhed, som skal brandes på nettet.",
+        "link":"http://dmkonf.dk/",
+        "logo":"DM19-logo-kopi-1.jpg",
+        "address": "Nupark, Nupark 51, 7500 Holstebro",
+        "price":"2.195 kr. ekskl. moms - medlemspriser kan ses på hjemmesiden",
+        "subpage":"dm_konf.html"
+    },
+    {
+        "id":7,
+        "title":"E-HANDELSKONFERENCE OG MESSE 2018 - RETURN OF TOTAL RETAIL",
+        "date":null,
+        "place":"Øksehallen, København V",
+        "description":"På E-handelskonferencen 2018 stillede vi skarpt på, hvordan du kan udnytte teknologien og de internationale platforme, så du kan stå stærkest muligt i den benhårde konkurrence.",
+        "link":"https://www.fdih.dk/events/konferencer/2018/e-handelskonference-og-messe",
+        "logo":"fdih-logo.png",
+        "address": "Halmtorvet 11, 1700 København V, Danmark",
+        "price":"2.895 kr. ekskl. moms (Medlemmer), 4.295 kr. ekskl. moms (Ikke-medlemmer)",
+        "subpage":""
+    },
+    {
+        "id":9,
+        "title":"Social Ads Conference",
+        "date": null,
+        "place":"",
+        "description":"",
+        "link":"https://socialadsconference.dk/",
+        "logo":"",
+        "address": "",
+        "price":"",
+        "subpage":""
+    }
+    
+
+]

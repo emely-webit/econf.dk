@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Econf - Tilføj konference</title>
+    <link rel="icon" href="favicon.svg" type="image/svg" sizes="64x64">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/92aa016ac9.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <!-- Google fonts css -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- Egen css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+<body>
+    <header>
+        <div class="w80">
+            <a class="headerLogo" href="index.html">
+                <img src="./assets/images/econf_logo2.svg" alt="econf header logo">
+            </a>
+            <i class="fas fa-bars" onClick="menu()"></i>
+            <nav class="headerNav" id="nav">
+                <ul>
+                    <li><a href="index.html">Konferencer</a></li>
+                    <li><a href="tilfoejkonference.html">Tilføj konference</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="w80">
+        <h1>Tilføj konference</h1>
+        <section class="flexSection konferenceTilfoej">
+            <article class="tilfoejInfo">
+                <p>Er der en konference der mangler på vores side, så udfyld formularen, så tilføjer vi den så hurtigt vi kan.</p>
+                <h2>Hvad får jeg ud af det?</h2>
+                <p>Målrettede besøgende som interessere sig for online marketing. Det er ganske gratis at oprette sig, du skal blot sende os dine informationer.</p>
+            </article>
+            <form class="tilfoejForm flexSection" data-netlify="true" name="tilfoejKonference" action="/succesBesked.html">
+                <div class="inputFelter flexSection">
+                    <div class="enkeltfelt">
+                        <label for="confName">Indtast navnet på konferencen<span>*</span></label>
+                        <input required type="text" name="confName" id="confName" placeholder="Navn på konferencen">
+                    </div>
+                    <div class="enkeltfelt">
+                        <label for="confLink">Link til konferencens hjemmeside<span>*</span></label>
+                        <input required type="url" name="confLink" id="confLink" placeholder="Link til hjemmesiden">
+                        <small>http:// eller https:// skal være med i url</small>
+                    </div>
+                    <div class="enkeltfelt">
+                        <label for="confDate">Vælg en dato for konferencen<span>*</span></label>
+                        <input required type="date" name="confDate" id="confDate" placeholder="dd-mm-åååå">
+                    </div>
+                    <div class="enkeltfelt">
+                        <label for="confImg">Upload din konferences logo<span>*</span></label>
+                        <input accept="image/jpeg, image/png" required type="file" name="confImg" id="confImg">
+                        <small>Filtyper: .jpg, .png</small>
+                    </div>
+                </div>
+                <div class="besked">
+                    <label for="confDescription">Kort beskrivelse af konferencen<span>*</span></label>
+                    <textarea rows="8" required name="confDescription" id="confDescription" placeholder="Beskrivelse"></textarea>
+                </div>
+                <div class="submitForm">
+                    <input onclick="addConfValidation()" class="btn shadow" type="submit" id="addConfBtn" value="Tilføj konference">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <article class="w80 footerflex">
+            <div class="footerKontakt">
+                <h3>Kontaktoplysninger</h3>
+                <ul>
+                    <li><i class="fas fa-phone-alt"></i> <a href="tel:+4528434239">+45 28 43 42 39</a></li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:peter@indexed.dk">peter@indexed.dk</a></li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h3>Menu</h3>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Konferencer</a></li>
+                        <li><a href="tilfoejkonference.html">Tilføj konference</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footerNyhed">
+                <h3>Tilmeld nyhedsbrev</h3>
+                <p>Tilmeld og modtage relevant information om nye konferencer eller ændringer</p>
+                <form class="nyhed" data-netlify="true" name="nyhedsbrev" action="/nyhedsbrev.html">
+                    <label for="footerNyhedMail">Indtast din email her:</label>
+                    <input type="email" name="footerNyhedMail" id="footerNyhedMail" placeholder="Indtast din email her">
+                    <input class="btn shadow" type="submit" value="Tilmeld">
+                </form>
+            </div>
+        </article>
+        <article class="backlink">
+            <p>Konference oversigt leveret af <a target="_blank" href="https://indexed.dk/">Indexed ApS</a></p>
+        </article>
+    </footer>
+    <!-- SCRIPTS -->
+    <script src="./assets/js/custom.js"></script>
+</body>
+</html>

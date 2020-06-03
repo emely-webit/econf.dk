@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Econf - Kontakt</title>
+    <link rel="icon" href="favicon.svg" type="image/svg" sizes="64x64">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/92aa016ac9.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <!-- Google fonts css -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- Egen css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+</head>
+<body>
+    <header>
+        <div class="w80">
+            <a class="headerLogo" href="index.html">
+                <img src="./assets/images/econf_logo2.svg" alt="econf header logo">
+            </a>
+            <i class="fas fa-bars" onClick="menu()"></i>
+            <nav class="headerNav" id="nav">
+                <ul>
+                    <li><a href="index.html">Konferencer</a></li>
+                    <li><a href="tilfoejkonference.html">Tilføj konference</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="w80">
+        <h1>Henvendelser til Econf kan gøres igennem denne formular. </h1>
+        <section class="flexSection konferenceTilfoej">
+            <article class="kontaktInfo">
+                <p>Er du ejer af konference og ønsker at ændre tekster eller lign så send os en mail med de nye tekster.</p><br>
+                <p>Ønsker du at oprette ny konference så benyt venligst <a href="tilfoejkonference.html">denne formular.</a></p>
+                <p class="telefon">Telefon: <a href="tel:+4528434239">+45 28 43 42 39</a></p>
+                <p class="mail">Mail: <a href="mailto:peter@indexed.dk">peter@indexed.dk</a></p>
+            </article>
+            <form class="kontaktForm flexSection" data-netlify="true" name="kontakt" action="/succesBesked.html">
+                <div class="inputFelter flexSection">
+                    <div class="enkeltfelt">
+                        <label for="name">Indtast dit navn her<span>*</span></label>
+                        <input required type="text" name="name" id="name" placeholder="Indtast dit navn">
+                    </div>
+                    <div class="enkeltfelt">
+                        <label for="contactMail">Indtast din email her<span>*</span></label>
+                        <input required type="email" name="contactMail" id="contactMail" placeholder="Indtast din email">
+                    </div>
+                    <div class="enkeltfelt">
+                        <label for="phonenumber">Hvis vi skal kontakte dig over telefonen:</label>
+                        <input type="tel" minlength="8" maxlength="8" name="phonenumber" id="phonenumber" placeholder="Indtast evt. dit telefonnummer">
+                        <small>Format: 12 34 56 78</small>
+                    </div>
+                    <div class="enkeltfelt">
+                        <label for="topic">Indtast emnet på din besked her<span>*</span></label>
+                        <input required type="text" name="topic" id="topic" placeholder="Indtast emnet">
+                    </div>
+                    <div class="beskedfelt">
+                        <label for="message">Skriv din besked her<span>*</span></label>
+                        <textarea rows="8" required name="message" id="message" placeholder="Skriv din besked her"></textarea>
+                    </div>
+                </div>
+                <div class="submitForm">
+                    <input onclick="contactValidation()" class="btn shadow" type="submit" value="Send besked">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <article class="w80 footerflex">
+            <div class="footerKontakt">
+                <h3>Kontaktoplysninger</h3>
+                <ul>
+                    <li><i class="fas fa-phone-alt"></i> <a href="tel:+4528434239">+45 28 43 42 39</a></li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:peter@indexed.dk">peter@indexed.dk</a></li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h3>Menu</h3>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Konferencer</a></li>
+                        <li><a href="tilfoejkonference.html">Tilføj konference</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footerNyhed">
+                <h3>Tilmeld nyhedsbrev</h3>
+                <p>Tilmeld og modtage relevant information om nye konferencer eller ændringer</p>
+                <form class="nyhed" data-netlify="true" name="nyhedsbrev" action="/nyhedsbrev.html">
+                    <label for="footerNyhedMail">Indtast din email her:</label>
+                    <input type="email" name="footerNyhedMail" id="footerNyhedMail" placeholder="Indtast din email her">
+                    <input class="btn shadow" type="submit" value="Tilmeld">
+                </form>
+            </div>
+        </article>
+        <article class="backlink">
+            <p>Konference oversigt leveret af <a target="_blank" href="https://indexed.dk/">Indexed ApS</a></p>
+        </article>
+    </footer>
+    <!-- SCRIPTS -->
+    <script src="./assets/js/custom.js"></script>
+</body>
+</html>

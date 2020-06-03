@@ -1,0 +1,529 @@
+/* ----------------------------
+/*  Name: encof
+    Author: 
+    Version: 
+/* -------------------------- */
+/* Generel css for everything */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #254559;
+    font-family: 'Lato', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+.w80{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.shadow{
+    box-shadow: 0px 3px 6px rgba(37, 69, 89, .80);
+}
+
+input, textarea{
+    padding: 10px;
+    border: 1px solid #254559;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.btn{
+    background-color: #254559;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+}
+
+.flexSection{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Success message for forms */
+.succes{
+    background-color: #a7d5f2;
+    position: relative;
+}
+
+.succes div{
+    width: 50%;
+    position: absolute;
+    top: 200px;
+    left: 25%;
+    text-align: center;
+}
+
+.succes .knapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.knapper a{
+    width: 32%;
+}
+/* Header begins */
+.fa-bars{
+    position: absolute;
+    right: 10%;
+    top: 20px;
+    font-size: 30px;
+    display: none;
+}
+header, footer{
+    background-color: #6aaed9;
+}
+
+header div{
+    display: flex;
+}
+header{
+    padding: 20px 0;
+}
+.headerLogo{
+    width: 20%;
+}
+
+.headerLogo img{
+    width: 100%;
+}
+
+.headerNav{
+    width: 80%;
+    text-align: right;
+    
+}
+.headerNav ul{
+    padding-top: 15px;
+}
+
+.headerNav li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.headerNav a{
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 0 0 25px;
+}
+
+.headerNav a:hover{
+    background-color: #ffffff;
+    border-radius: 5px 5px 0 0;
+}
+/* Header ends */
+
+/* Footer */
+footer a, footer p, footer label{
+    color: #000000;
+}
+.footerflex{
+    display: flex;
+    padding: 20px 0;
+}
+.footerKontakt, .footerNyhed, .footerMenu{
+    width: 33.33%;
+}
+footer li,.footerNyhed p{
+    margin: 10px 0;
+}
+.footerMenu{
+    text-align: center;
+}
+.footerMenu a {
+    text-decoration: none;
+}
+
+.footerMenu a:hover {
+    text-decoration: underline;
+}
+
+.footerNyhed{
+    text-align: end;
+}
+.backlink{
+    background-color: #254559;
+    text-align: center;
+    padding: 10px;
+}
+.backlink p, .backlink a{
+    color: #ffffff;
+}
+
+/* All Conference begins */
+
+.enkeltKonf{
+    background-color: #a7d5f2;
+    width: 49%;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.konferenceImg{
+    width: 35%;
+    display: flex;
+    align-items: center;
+}
+
+.konferenceImg img{
+    width: 100%;
+}
+
+.konferenceInfo{
+    width: 60%;
+}
+
+.konferenceInfo h2{
+    font-size: 18px;
+}
+
+.konferenceInfo h3{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.chosenBtn{
+    margin-left: 5%;
+}
+
+/* Conference description */
+
+.text_snippet{
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+    line-height: 1.2em;
+    max-height: 3.6em;
+    text-align: justify;
+    margin-right: -1em;
+    padding-right: 1em;
+}
+
+.text_snippet::before{
+    content: '...';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.text_snippet::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2em;
+    background-color: #a7d5f2;
+}
+
+/* All Conference ends */
+
+/* Chosen Conference begins */
+.chosenConfInfo, .chosenConfImg,.chosenConfImg img{
+    width: 48%;
+}
+.confDescription,.chosenConfInfo h3{
+    padding: 10px 0;
+}
+.chosenConfInfo a{
+    font-size: 18px;
+}
+#chosen_container{
+    margin-bottom: 30px;
+}
+.confPrice{
+    color: #B30000;
+}
+.chosenConfImg{
+    background-color: #a7d5f2;
+    display: flex;
+    align-items: center;
+}
+.chosenConfImg img{
+    margin: 10px auto;
+}
+#chosen_container section{
+    justify-content: space-between;
+}
+/* Chosen Conference ends */
+
+
+/* Newsletter begins */
+.nyhedTilfoej, h1, .konferenceTilfoej{
+    margin: 30px 0;
+}
+
+.nyhedsbrev, .tilfoejKonf{
+    width: 49%;
+}
+.nyhed label{
+    display: block;
+    margin-bottom: 10px;
+}
+.nyhedsbrev p{
+    margin: 10px 0 30px 0;
+}
+.nyhed input[type=submit]{
+    margin-left: 10px;
+    display:inline-block;
+    cursor: pointer;
+}
+.nyhedsbrev .nyhed input[type=email]{
+    width: 50%;
+}
+/* Newsletter ends */
+
+/* Add Conference section begins */
+.tilfoejKonf .btn{
+    margin-top: 30px;
+    padding: 15px;
+}
+.fa-arrow-right{
+    margin-left: 10px;
+    color: #ffffff;
+}
+/* Add Conference ends */
+
+
+/* Subpage - add Conference begins */
+
+.tilfoejInfo, .besked, .kontaktInfo{
+    width: 30%;
+}
+.tilfoejInfo h2{
+    margin: 20px 0;
+}
+.tilfoejForm,.kontaktForm{
+    width: 65%;
+}
+
+.tilfoejForm textarea,.kontaktForm textarea{
+    width: 100%;
+}
+
+.tilfoejForm .inputFelter input{
+    width: 90%;
+}
+.tilfoejForm label, .kontaktForm label{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.inputFelter{
+    width: 67%;
+}
+
+.enkeltfelt{
+    margin-bottom: 30px;
+    width: 49%;
+}
+
+form span{
+    color: #B30000;
+}
+
+.submitForm{
+    width: 100%;
+    display: flex;
+}
+
+.submitForm input[type=submit]{
+    text-align: center;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+/* add Conference ends */
+
+/* subpage - contact page begins */
+/* Some of the css is under add konference, because most of it, is the same */
+
+.kontaktForm .inputFelter input, .kontaktForm .inputFelter, .beskedfelt{
+    width: 100%;
+}
+
+.submitForm input[type=submit]{
+    margin-top: 10px;
+}
+
+.telefon{
+    margin-top: 20px;
+}
+.telefon a, .mail a{
+    color: #2e34a6;
+}
+
+/* Contact page ends */
+
+/* Responsive phone */
+@media (max-width: 459px){
+
+    #nav{
+        display: none;
+        position: absolute;
+        top: 69px;
+        right: 0;
+        background-color: #6aaed9;
+        width: 50%;
+        border: 1px solid #254559;
+    }
+    .headerNav ul{
+        padding-top: 0;
+    }
+    .headerNav li{
+        display: block;
+        margin: 10px 0;
+        padding:5px 6% 5px 0;
+    }
+    .headerNav a{
+        padding: 0;
+    }
+    .headerNav li:hover{
+        background-color: #ffffff;
+        border-radius: 0;
+    }
+    .fa-bars{
+        display: block;
+    }
+    .headerLogo{
+        width: 50%;
+    }
+    .flexSection,.footerflex{
+        display: block;
+    }
+    .enkeltKonf,.konferenceImg, .konferenceInfo, .nyhedsbrev, .tilfoejKonf, .nyhedsbrev .nyhed input[type=email], input,.tilfoejForm .inputFelter input,.tilfoejKonf .btn,.footerKontakt, .footerNyhed, .footerMenu,.tilfoejInfo, .besked,.tilfoejForm,.inputFelter,.enkeltfelt, .kontaktInfo, .kontaktForm,.chosenConfInfo, .chosenConfImg img, .chosenConfImg, .confDescription{
+        width: 100%;
+    }
+    .konferenceInfo{
+        margin: 15px 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .konferenceInfo a{
+        margin: 10px auto;
+    }
+    .confPrice{
+        margin-bottom: 15px;
+    }
+    .nyhed input[type=submit]{
+        margin: 10px 0;
+    }
+    .tilfoejKonf, .footerMenu,.tilfoejForm{
+        margin: 25px 0;
+    }
+    .tilfoejKonf .btn{
+        padding: 12px;
+    }
+    .footerKontakt, .footerNyhed, .tilfoejKonf .btn{
+        text-align: center;
+    }
+    .tilfoejForm input[type=submit]{
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    .kontaktForm{
+        margin-top: 20px;
+    }
+    .konferenceInfo p {
+        margin-bottom: 25px;
+    }
+
+    .succes div{
+        width: 95%;
+        left: 2.5%;
+        top: 30px;
+    }
+
+    .succes .knapper{
+        display: block;
+    }
+    .knapper a {
+        width: 100%;
+        margin: 20px 0;
+    }
+}
+/* Responsive tablet */
+@media all and (min-width: 460px) and (max-width: 859px){
+
+    #nav{
+        display: none;
+        position: absolute;
+        top: 107px;
+        right: 0;
+        background-color: #6aaed9;
+        width: 33%;
+        border: 1px solid #254559;
+    }
+    .headerNav ul{
+        padding-top: 0;
+    }
+    .headerNav li{
+        display: block;
+        margin: 10px 0;
+        padding:5px 30% 5px 0;
+    }
+    .headerNav a{
+        padding: 0;
+    }
+    .headerNav li:hover{
+        background-color: #ffffff;
+        border-radius: 0;
+    }
+    .fa-bars{
+        display: block;
+        right: 10%;
+        top: 30px;
+        font-size: 40px
+    }
+    .headerLogo{
+        width: 50%;
+    }
+    .enkeltKonf, .nyhedsbrev, .tilfoejKonf,.tilfoejKonf .btn,.footerKontakt, .footerNyhed, .footerMenu, .tilfoejInfo, .besked, .tilfoejForm,.inputFelter, .kontaktInfo, .kontaktForm,.chosenConfImg img,.confDescription{
+        width: 100%;
+    }
+    .tilfoejKonf, .kontaktForm,.tilfoejForm{
+        margin-top: 20px;
+    }
+    .nyhedTilfoej{
+        flex-wrap: wrap;
+    }
+    .nyhedsbrev .nyhed input[type=email] {
+        width: 79%;
+    }
+    .tilfoejKonf .btn {
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .footerflex{
+        display: block;
+    }
+    .footerKontakt, .footerNyhed, .tilfoejKonf .btn {
+        text-align: center;
+    }
+    .footerMenu{
+        margin: 25px 0;
+    }
+    .konferenceInfo p {
+        margin-bottom: 20px;
+    }
+    .succes div{
+        width: 90%;
+        left: 5%;
+        top: 100px;
+    }
+}

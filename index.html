@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Econf - Konferencer</title>
+    <link rel="icon" href="favicon.svg" type="image/svg" sizes="64x64">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/92aa016ac9.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <!-- Google fonts css -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- Egen css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body onload="callConference()">
+    <header>
+        <div class="w80">
+            <a class="headerLogo" href="index.html">
+                <img src="./assets/images/econf_logo2.svg" alt="econf header logo">
+            </a>
+            <i class="fas fa-bars" onClick="menu()"></i>
+            <nav class="headerNav" id="nav">
+                <ul>
+                    <li><a href="index.html">Konferencer</a></li>
+                    <li><a href="tilfoejkonference.html">Tilføj konference</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="w80">
+        <h1>E-commerce konferencer i 2020</h1>
+        <!-- All the conference will come here through javascript -->
+        <section id="conf_boks" class="konferencer flexSection">
+
+
+        </section>
+        <section class="flexSection nyhedTilfoej">
+            <article class="nyhedsbrev">
+                <h2>Bliv notificeret om nye spændende konferencer</h2>
+                <p>Tilmeld og modtage relevant information om nye konferencer eller ændringer</p>
+                <form class="nyhed" data-netlify="true" name="nyhedsbrev" action="/nyhedsbrev.html">
+                    <label for="nyhedMail">Indtast din email her:</label>
+                    <input type="email" name="nyhedMail" id="nyhedMail" placeholder="Indtast din email her">
+                    <input class="btn shadow" type="submit" value="Tilmeld">
+                </form>
+            </article>
+             <article class="tilfoejKonf">
+                <h2>Mangler der en konference</h2>
+                <p>Kort tekst der forklare hvad man kan.</p>
+                <a class="btn shadow" href="tilfoejkonference.html">Tilføj konference her <i class="fas fa-arrow-right"></i></a>
+             </article>
+        </section>
+    </main>
+    <footer>
+        <article class="w80 footerflex">
+            <div class="footerKontakt">
+                <h3>Kontaktoplysninger</h3>
+                <ul>
+                    <li><i class="fas fa-phone-alt"></i> <a href="tel:+4528434239">+45 28 43 42 39</a></li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:peter@indexed.dk">peter@indexed.dk</a></li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h3>Menu</h3>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Konferencer</a></li>
+                        <li><a href="tilfoejkonference.html">Tilføj konference</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footerNyhed">
+                <h3>Tilmeld nyhedsbrev</h3>
+                <p>Tilmeld og modtage relevant information om nye konferencer eller ændringer</p>
+                <form class="nyhed" data-netlify="true" name="nyhedsbrev" action="/nyhedsbrev.html">
+                    <label for="footerNyhedMail">Indtast din email her:</label>
+                    <input type="email" name="footerNyhedMail" id="footerNyhedMail" placeholder="Indtast din email her">
+                    <input class="btn shadow" type="submit" value="Tilmeld">
+                </form>
+            </div>
+        </article>
+        <article class="backlink">
+            <p>Konference oversigt leveret af <a target="_blank" href="https://indexed.dk/">Indexed ApS</a></p>
+        </article>
+    </footer>
+    <!-- SCRIPTS -->
+    <script src="./assets/js/custom.js"></script>
+</body> 
+</html>

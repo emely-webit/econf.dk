@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Econf - KOM20: Årets k-konference</title>
+    <link rel="icon" href="../favicon.svg" type="image/svg" sizes="64x64">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/92aa016ac9.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <!-- Google fonts css -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- Egen css -->
+    <link rel="stylesheet" href="../assets/css/style.css">    
+</head>
+<body>
+    <header>
+        <div class="w80">
+            <a class="headerLogo" href="../index.html">
+                <img src="../assets/images/econf_logo2.svg" alt="econf header logo">
+            </a>
+            <i class="fas fa-bars" onClick="menu()"></i>
+            <nav class="headerNav" id="nav">
+                <ul>
+                    <li><a href="../index.html">Konferencer</a></li>
+                    <li><a href="../tilfoejkonference.html">Tilføj konference</a></li>
+                    <li><a href="../kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="w80" id="chosen_container">
+        <h1>KOM20: Årets k-konference</h1>
+        <section class="flexSection">
+            <article class="chosenConfInfo">
+                <h2>2020-09-03</h2>
+                <h3>THE PLANT, Raffinaderivej 22, 2300 København</h3>
+                <a target="_blank" href="https://kom20.dk/">Besøg hjemmesiden her</a>
+                <p class="confDescription">Vi gentager for fjerde gang succesen med årets største danske kommunikationskonference når vi åbner  dørene til KOM20. For første gang på The Plant, der ligger otte minutter på cykel fra Kongens Nytorv i København.<br>Den klassiske kommunikatør bliver i disse år udfordret på relationsopbygning og målgruppekontakt. Både af nye digitale muligheder og andre faggruppers kommunikationsløsninger, når nu de allerede sidder med ved ledelsesmøderne.<br> Kforum og DJ sætter derfor til KOM20 fokus på, hvordan vi holder os relevante som kommunikatører.<br>Med lærerige cases og provokerende oplæg bliver vi sammen klogere på, hvad vi skal koncentrere os om, hvad vi skal ignorere, og hvordan vi forklarer vores ledelser og omverden, at vores indsats gør en reel forskel. Du får samtidig konkrete værktøjer til at komme tættere på forretningen og til at styrke kommunikationsbranchens bæredygtighed.</p>
+                <p class="confPrice">2.490 kr. ex moms - Se medlemspriser på hjemmesiden</p>
+            </article>
+            <div class="chosenConfImg shadow">
+                <img src="../assets/images/kom20640x300.png" alt="KOM20: Årets k-konference">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <article class="w80 footerflex">
+            <div class="footerKontakt">
+                <h3>Kontaktoplysninger</h3>
+                <ul>
+                    <li><i class="fas fa-phone-alt"></i> <a href="tel:+4528434239">+45 28 43 42 39</a></li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:peter@indexed.dk">peter@indexed.dk</a></li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h3>Menu</h3>
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Konferencer</a></li>
+                        <li><a href="../tilfoejkonference.html">Tilføj konference</a></li>
+                        <li><a href="../kontakt.html">Kontakt</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footerNyhed">
+                <h3>Tilmeld nyhedsbrev</h3>
+                <p>Tilmeld og modtage relevant information om nye konferencer eller ændringer</p>
+                <form class="nyhed" data-netlify="true" name="nyhedsbrev" action="/nyhedsbrev.html">
+                    <label for="footerNyhedMail">Indtast din email her:</label>
+                    <input type="email" name="footerNyhedMail" id="footerNyhedMail" placeholder="Indtast din email her">
+                    <input class="btn shadow" type="submit" value="Tilmeld">
+                </form>
+            </div>
+        </article>
+        <article class="backlink">
+            <p>Konference oversigt leveret af <a target="_blank" href="https://indexed.dk/">Indexed ApS</a></p>
+        </article>
+    </footer>
+    <!-- SCRIPTS -->
+    <script src="../assets/js/custom.js"></script>
+</body>
+</html>

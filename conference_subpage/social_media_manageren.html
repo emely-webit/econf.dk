@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Econf - SOCIAL MEDIA MANAGEREN 2020</title>
+    <link rel="icon" href="../favicon.svg" type="image/svg" sizes="64x64">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/92aa016ac9.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <!-- Google fonts css -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- Egen css -->
+    <link rel="stylesheet" href="../assets/css/style.css">    
+</head>
+<body>
+    <header>
+        <div class="w80">
+            <a class="headerLogo" href="../index.html">
+                <img src="../assets/images/econf_logo2.svg" alt="econf header logo">
+            </a>
+            <i class="fas fa-bars" onClick="menu()"></i>
+            <nav class="headerNav" id="nav">
+                <ul>
+                    <li><a href="../index.html">Konferencer</a></li>
+                    <li><a href="../tilfoejkonference.html">Tilføj konference</a></li>
+                    <li><a href="../kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="w80" id="chosen_container">
+        <h1>SOCIAL MEDIA MANAGEREN 2020</h1>
+        <section class="flexSection">
+            
+            <article class="chosenConfInfo">
+                <h2>2020-11-04</h2>
+                <h3>Comwell Aarhus Værkmestergade 2 8000 Aarhus</h3>
+                <a target="_blank" href="https://socialmedia-manageren.dk/">Besøg hjemmesiden her</a>
+                <p class="confDescription">Social Media Manageren 2019 er 8 timer med tools, tips, tricks og tendenser. Hand on viden til at få succes med sociale medier– step by step</p>
+                <p class="confPrice">Earlybird pris: 2.495 kr. ekskl. moms. Efter 1. oktober: 3.495 kr. ekskl. moms</p>
+            </article>
+            <div class="chosenConfImg shadow">
+                <img src="../assets/images/social_media_manageren-2020_logo_pos.png" alt="SOCIAL MEDIA MANAGEREN 2020">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <article class="w80 footerflex">
+            <div class="footerKontakt">
+                <h3>Kontaktoplysninger</h3>
+                <ul>
+                    <li><i class="fas fa-phone-alt"></i> <a href="tel:+4528434239">+45 28 43 42 39</a></li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:peter@indexed.dk">peter@indexed.dk</a></li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h3>Menu</h3>
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Konferencer</a></li>
+                        <li><a href="../tilfoejkonference.html">Tilføj konference</a></li>
+                        <li><a href="../kontakt.html">Kontakt</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footerNyhed">
+                <h3>Tilmeld nyhedsbrev</h3>
+                <p>Tilmeld og modtage relevant information om nye konferencer eller ændringer</p>
+                <form class="nyhed" data-netlify="true" name="nyhedsbrev" action="/nyhedsbrev.html">
+                    <label for="footerNyhedMail">Indtast din email her:</label>
+                    <input type="email" name="footerNyhedMail" id="footerNyhedMail" placeholder="Indtast din email her">
+                    <input class="btn shadow" type="submit" value="Tilmeld">
+                </form>
+            </div>
+        </article>
+        <article class="backlink">
+            <p>Konference oversigt leveret af <a target="_blank" href="https://indexed.dk/">Indexed ApS</a></p>
+        </article>
+    </footer>
+    <!-- SCRIPTS -->
+    <script src="../assets/js/custom.js"></script>
+</body>
+</html>
